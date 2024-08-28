@@ -1,0 +1,3 @@
+## Fundamentos do TypeScript
+
+Os fundamentos do TypeScript giram em torno da introdução de um sistema de tipos estáticos, suporte à orientação a objetos e recursos modernos de linguagem que ajudam a criar código mais seguro, legível e fácil de manter. Com uma grande ênfase em compatibilidade com JavaScript e ferramentas de desenvolvimento, TypeScript se tornou uma escolha popular para o desenvolvimento de aplicações web de grande escala.

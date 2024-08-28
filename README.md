@@ -7,6 +7,16 @@ Curso TypeScript do básico ao avançado da Udemy.
 ## Sumário
 
 * [História](#História)
+* [Fundamentos do TypeScript](/02-fundamentos/basic.md#fundamentos-do-typescript)
+    1. [O que são tipos?](/02-fundamentos/types.md#o-que-são-tipos)
+    2. [Tipos primitivos](/02-fundamentos/prim.md#tipos-primitivos)
+        * [Number](/02-fundamentos/prim.md#number)
+        * [String](/02-fundamentos/prim.md#string)
+        * [Boolean](/02-fundamentos/prim.md#boolean)
+    3. [Type inference e Type annotation](/02-fundamentos/TIeTA.md#type-inference-e-type-annotation)
+        * [Type Inference](/02-fundamentos/TIeTA.md#type-inference-e-type-annotation)
+        * [Type Annotation ](/02-fundamentos/TIeTA.md#type-annotation-anotação-de-tipo)
+    4. [Avançando em tipos](/03-Avan_em_tipos/avan_tipos.md#avançando-em-tipos)
 * [Referências](#referências)
 
 ## História
@@ -21,6 +31,4 @@ Outro aspecto importante da origem do TypeScript é a sua interoperabilidade com
 ## Referências
 
 - [Udemy](https://www.udemy.com/course/typescript-do-basico-ao-avancado-c-react-express/)
-- [Eng Softmoderna](https://engsoftmoderna.info/artigos/ddd.html)
-- [Clean Architecture](https://medium.com/luizalabs/descomplicando-a-clean-architecture-cf4dfc4a1ac6)
 - [Chat GPT](https://chat.openai.com/)

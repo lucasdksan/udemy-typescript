@@ -1,0 +1,3 @@
+### O que são tipos?
+
+Tipos, no contexto de linguagens de programação, referem-se às classificações atribuídas aos dados que determinam como eles podem ser utilizados e manipulados. Cada tipo de dado define um conjunto de valores possíveis e as operações que podem ser realizadas sobre esses valores. Os tipos ajudam a garantir que o código seja mais seguro e menos propenso a erros, facilitando a detecção de erros de lógica ou inconsistências.
