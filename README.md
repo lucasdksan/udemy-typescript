@@ -16,7 +16,7 @@ Curso TypeScript do básico ao avançado da Udemy.
     3. [Type inference e Type annotation](/02-fundamentos/TIeTA.md#type-inference-e-type-annotation)
         * [Type Inference](/02-fundamentos/TIeTA.md#type-inference-e-type-annotation)
         * [Type Annotation ](/02-fundamentos/TIeTA.md#type-annotation-anotação-de-tipo)
-    4. [Avançando em tipos](/03-Avan_em_tipos/avan_tipos.md#avançando-em-tipos)
+* [Avançando em tipos](/03-Avan_em_tipos/avan_tipos.md#avançando-em-tipos)
 * [Referências](#referências)
 
 ## História
