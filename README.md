@@ -17,6 +17,12 @@ Curso TypeScript do básico ao avançado da Udemy.
         * [Type Inference](/02-fundamentos/TIeTA.md#type-inference-e-type-annotation)
         * [Type Annotation ](/02-fundamentos/TIeTA.md#type-annotation-anotação-de-tipo)
 * [Avançando em tipos](/03-Avan_em_tipos/avan_tipos.md#avançando-em-tipos)
+    1. [Arrays](/03-Avan_em_tipos/avan_tipos.md#arrays)
+        * [Tipos de Arrays](/03-Avan_em_tipos/avan_tipos.md#tipos-de-arrays-em-typescript)
+        * [Operações](/03-Avan_em_tipos/avan_tipos.md#operações-comuns-em-arrays)
+        * [Tuplas](/03-Avan_em_tipos/avan_tipos.md#tuplas)
+        * [Tipos Genéricos](/03-Avan_em_tipos/avan_tipos.md#arrays-e-tipos-genéricos)
+        * [Imutabilidade](/03-Avan_em_tipos/avan_tipos.md#imutabilidade-e-arrays)
 * [Referências](#referências)
 
 ## História
