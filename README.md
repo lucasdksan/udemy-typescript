@@ -166,7 +166,12 @@ Curso TypeScript do básico ao avançado da Udemy.
         * [Herança Múltipla](/06-object-type/objectType.md#herança-múltipla)
         * [Interfaces e Tipos Literais](/06-object-type/objectType.md#interfaces-e-tipos-literais)
         * [Regras e Considerações](/06-object-type/objectType.md#regras-e-considerações)
-* []()
+* [Criação de Tipos](/07-create_types/createTypes.md#criação-de-tipos)
+    1. [Keyof type operator](/07-create_types/createTypes.md#keyof-type-operator)
+        * [Usos Comuns do keyof](/07-create_types/createTypes.md#usos-comuns-do-keyof)
+    2. [Typeof type operator](/07-create_types/createTypes.md#typeof-type-operator)
+        * [Comparação com keyof](/07-create_types/createTypes.md#comparação-com-keyof)
+        * [Uso em Funções](/07-create_types/createTypes.md#uso-em-funções)
 * [Referências](#referências)
 
 ## História
