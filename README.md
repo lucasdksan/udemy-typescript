@@ -172,6 +172,12 @@ Curso TypeScript do básico ao avançado da Udemy.
     2. [Typeof type operator](/07-create_types/createTypes.md#typeof-type-operator)
         * [Comparação com keyof](/07-create_types/createTypes.md#comparação-com-keyof)
         * [Uso em Funções](/07-create_types/createTypes.md#uso-em-funções)
+* [Classes com Typescript](/08-class/class.md#classes-com-typescript)
+    1. [Constructor](/08-class/class.md#constructor)
+        * [Características do constructor](/08-class/class.md#características-do-constructor)
+    2. [Propriedades readonly](./08-class/class.md#propriedades-readonly)
+    3. [Herança e super](/08-class/class.md#herança-e-super)
+    4. [Métodos](/08-class/class.md#métodos)
 * [Referências](#referências)
 
 ## História
