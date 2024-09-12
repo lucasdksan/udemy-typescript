@@ -86,3 +86,107 @@ class Dwarf {
 const jimmy = new Dwarf("Jimmy");
 
 console.log(jimmy);
+
+//  This
+
+class Truck {
+    model: string;
+    hp: number;
+
+    constructor(model: string, hp: number){
+        this.model = model;
+        this.hp = hp;
+    }
+
+    showDetails(){
+        console.log(`O caminhão do modelo: ${this.model}, que tem ${this.hp} cavalos de potência!`);
+    }
+}
+
+const volvo = new Truck("Volvo", 400);
+
+volvo.showDetails();
+
+// Getters
+
+class PersonGetter {
+    private _name: string;
+    private _surname: string;
+
+    constructor(name: string, surname: string){
+        this._name = name;
+        this._surname = surname;
+    }
+
+    get name(){
+        return this._name;
+    }
+
+    get surname(){
+        return this._surname;
+    }
+
+    get fullName(){
+        return `${this._name} ${this._surname}`;
+    }
+}
+
+const l = new PersonGetter("Lucas", "Silva");
+
+console.log(l.fullName);
+
+// Setter
+
+class Coor {
+    _x!: number;
+    _y!: number;
+
+    set x(value: number) {
+        this._x = value;
+    }
+
+    set y(value: number) {
+        this._y = value;
+    }
+
+    get x() {
+        return this._x;
+    }
+
+    get y() {
+        return this._y;
+    }
+
+    print(){
+        console.log({ x: this.x, y: this.y });
+    }
+}
+
+const home = new Coor();
+
+home.x = 10;
+home.y = 11;
+
+home.print();
+
+//  Herança interface
+
+interface ShowTitle {
+    itemTitle: ()=> string;
+}
+
+class BlogPost implements ShowTitle {
+    title: string;
+
+    constructor(title: string){
+        this.title = title;
+    }
+
+    itemTitle() {
+        return `Valor do title é ${this.title}`;
+    };
+}
+
+const vars = new BlogPost("Oi Lucas");
+
+console.log(vars.itemTitle());
