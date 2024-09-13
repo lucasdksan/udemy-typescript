@@ -113,3 +113,117 @@ class BlogPost {
 }
 const vars = new BlogPost("Oi Lucas");
 console.log(vars.itemTitle());
+// Override de métodos
+class Base {
+    someMethod() {
+        console.log("OI");
+    }
+}
+class NewBase extends Base {
+    someMethod() {
+        console.log("OI doido");
+    }
+}
+const myBase = new NewBase();
+myBase.someMethod();
+// Public
+class C {
+    constructor() {
+        this.x = 10;
+        this.y = 11;
+    }
+}
+const ct = new C();
+console.log("C: ", { x: ct.x, y: ct.y });
+// Protected
+class E {
+    constructor() {
+        this.x = 10;
+    }
+}
+class D extends E {
+    showX() {
+        console.log("Oi X: ", this.x);
+    }
+}
+const dd = new D();
+dd.showX();
+//  Private
+class PrivateClass {
+    constructor() {
+        this._name = "Lucas";
+    }
+    get name() {
+        return this._name;
+    }
+}
+const obj = new PrivateClass();
+console.log(obj.name);
+// Static Members
+class StaticMembers {
+}
+StaticMembers.props = {
+    name: "Lucas"
+};
+console.log(StaticMembers.props);
+// Generic class
+class Item {
+    constructor(f, s) {
+        this.first = f;
+        this.second = s;
+    }
+    get f() {
+        return this.first;
+    }
+    get s() {
+        return this.second;
+    }
+}
+const newItem = new Item("Lucas", 10);
+console.log({
+    f: newItem.f,
+    s: newItem.s
+});
+console.log(typeof newItem.f);
+console.log(typeof newItem.s);
+// Parameter properties
+class ParameterProperties {
+    constructor(name, _qt, _price) {
+        this.name = name;
+        this._qt = _qt;
+        this._price = _price;
+        this.name = name;
+        this._price = _price;
+        this._qt = _qt;
+    }
+    get qt() {
+        return this._qt;
+    }
+    get price() {
+        return this._price;
+    }
+}
+const newShirt = new ParameterProperties("C Lucas", 12, 100);
+// Class expressions
+const myC = class {
+    constructor(cpf, some) {
+        this.cpf = cpf;
+        this.some = some;
+        this.cpf = cpf;
+        this.some = some;
+    }
+};
+// Classe abstrata
+class AbstractClass {
+}
+class AbstractEx extends AbstractClass {
+    constructor(name) {
+        super();
+        this.name = name;
+    }
+    showNam() {
+        console.log(this.name);
+    }
+}
+const abs = new AbstractEx("Lucas");
+abs.showNam();

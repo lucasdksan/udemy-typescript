@@ -190,3 +190,152 @@ class BlogPost implements ShowTitle {
 const vars = new BlogPost("Oi Lucas");
 
 console.log(vars.itemTitle());
+
+// Override de métodos
+
+class Base {
+    someMethod() {
+        console.log("OI")
+    }
+}
+
+class NewBase extends Base {
+    someMethod() {
+        console.log("OI doido")
+    }
+}
+
+const myBase = new NewBase();
+
+myBase.someMethod();
+
+// Public
+
+class C {
+    x = 10;
+    public y = 11;
+}
+
+const ct = new C();
+
+console.log("C: ", { x: ct.x, y: ct.y });
+
+// Protected
+
+class E {
+    protected x = 10;
+}
+
+class D extends E {
+    showX(){
+        console.log("Oi X: ", this.x)
+    }
+}
+
+const dd = new D();
+
+dd.showX();
+
+//  Private
+
+class PrivateClass {
+    private _name = "Lucas";
+    
+    get name(){
+        return this._name;
+    }
+}
+
+const obj = new PrivateClass();
+
+console.log(obj.name);
+
+// Static Members
+
+class StaticMembers {
+    static props = {
+        name: "Lucas"
+    }
+}
+
+console.log(StaticMembers.props)
+
+// Generic class
+
+class Item<T, U> {
+    first;
+    second;
+
+    constructor(f: T, s: U){
+        this.first = f;
+        this.second = s;
+    }
+
+    get f(){
+        return this.first;
+    }
+
+    get s() {
+        return this.second;
+    }
+}
+
+const newItem = new Item("Lucas", 10);
+console.log({
+    f: newItem.f,
+    s: newItem.s
+});
+console.log(typeof newItem.f)
+console.log(typeof newItem.s)
+
+// Parameter properties
+
+class ParameterProperties {
+    constructor(public name: string, private _qt: number, private _price: number) {
+        this.name = name;
+        this._price = _price;
+        this._qt = _qt;
+    }
+
+    get qt(){
+        return this._qt
+    }
+
+    get price(){
+        return this._price
+    }
+}
+
+const newShirt = new ParameterProperties("C Lucas", 12, 100);
+
+// Class expressions
+
+const myC = class <T> {
+    constructor(private cpf: string, public some: T){
+        this.cpf = cpf;
+        this.some = some;
+    }
+}
+
+// Classe abstrata
+
+abstract class AbstractClass {
+    abstract showNam(): void;
+}
+
+class AbstractEx extends AbstractClass {
+    name: string;
+
+    constructor(name: string,){
+        super();
+        this.name = name
+    }
+    
+    showNam(): void {
+        console.log(this.name)
+    }
+}
+
+const abs = new AbstractEx("Lucas")
+
+abs.showNam();
