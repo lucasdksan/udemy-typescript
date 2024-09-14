@@ -201,6 +201,13 @@ Curso TypeScript do básico ao avançado da Udemy.
         * [Sintaxe para Classes Abstratas](/08-class/class.md#sintaxe-para-classes-abstratas)
         * [Implementação de Subclasses](/08-class/class.md#implementação-de-subclasses)
         * [Métodos e Propriedades Abstratas](/08-class/class.md#métodos-e-propriedades-abstratas)
+* [Decorators](/09-decorators/decorator.md#decorators)
+    1. [Decorators de Classe](/09-decorators/decorator.md#decorators-de-classe)
+    2. [Decorators de Método](/09-decorators/decorator.md#decorators-de-método)
+    3. [Decorators de Propriedade](/09-decorators/decorator.md#decorators-de-propriedade)
+    4. [Decorators de Parâmetro](/09-decorators/decorator.md#decorators-de-parâmetro)
+    5. [Decorators de Acesso (Getters e Setters)](/09-decorators/decorator.md#decorators-de-acesso-getters-e-setters)
+    6. [Sequência de Execução dos Decorators](/09-decorators/decorator.md#sequência-de-execução-dos-decorators)
 * [Referências](#referências)
 
 ## História
